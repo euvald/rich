@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Escuela">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Alumnos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Alumno" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="NoControl" type="xs:string"/>
+                                        <xs:element name="Nombre" type="xs:string"/>
+                                        <xs:element name="Apellidos" type="xs:string"/>
+                                        <xs:element name="Direccion" type="xs:string"/>
+                                        <xs:element name="Semestre" type="xs:string"/>
+                                        <xs:element name="Correo" type="xs:string"/>
+                                        <xs:element name="Telefono" type="xs:string"/>
+                                        <xs:element name="CantidadMaterias" type="xs:int"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Materias">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Materia" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Clave" type="xs:string"/>
+                                        <xs:element name="Nombre" type="xs:string"/>
+                                        <xs:element name="Creditos" type="xs:int"/>
+                                        <xs:element name="Carrera" type="xs:string"/>
+                                        <xs:element name="Horario" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

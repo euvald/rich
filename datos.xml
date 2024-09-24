@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escuela>
+    <alumnos>
+        <alumno>
+            <noControl>12345678</noControl>
+            <nombre>Juan</nombre>
+            <apellidos>Pérez Gómez</apellidos>
+            <direccion>Calle Falsa 123</direccion>
+            <semestre>5</semestre>
+            <correo>juan.perez@gmail.com</correo>
+            <telefono>555-1234</telefono>
+            <materias>5</materias>
+        </alumno>
+        <alumno>
+            <noControl>87654321</noControl>
+            <nombre>María</nombre>
+            <apellidos>García López</apellidos>
+            <direccion>Avenida Siempre Viva 742</direccion>
+            <semestre>3</semestre>
+            <correo>maria.garcia@gmail.com</correo>
+            <telefono>555-5678</telefono>
+            <materias>4</materias>
+        </alumno>
+        <alumno>
+            <noControl>11223344</noControl>
+            <nombre>Carlos</nombre>
+            <apellidos>Hernández Ruiz</apellidos>
+            <direccion>Calle del Sol 456</direccion>
+            <semestre>2</semestre>
+            <correo>carlos.hernandez@icloud.com</correo>
+            <telefono>555-8765</telefono>
+            <materias>6</materias>
+        </alumno>
+        <alumno>
+            <noControl>44332211</noControl>
+            <nombre>Ana</nombre>
+            <apellidos>Martínez Díaz</apellidos>
+            <direccion>Plaza Mayor 789</direccion>
+            <semestre>1</semestre>
+            <correo>ana.martinez@icloud.com</correo>
+            <telefono>555-4321</telefono>
+            <materias>3</materias>
+        </alumno>
+        <alumno>
+            <noControl>55667788</noControl>
+            <nombre>Pedro</nombre>
+            <apellidos>Gómez Sánchez</apellidos>
+            <direccion>Calle Luna 101</direccion>
+            <semestre>4</semestre>
+            <correo>pedro.gomez@example.com</correo>
+            <telefono>555-6789</telefono>
+            <materias>5</materias>
+        </alumno>
+        <alumno>
+            <noControl>88776655</noControl>
+            <nombre>Laura</nombre>
+            <apellidos>Jiménez Torres</apellidos>
+            <direccion>Avenida Sol 202</direccion>
+            <semestre>6</semestre>
+            <correo>laura.jimenez@icloud.com</correo>
+            <telefono>555-9876</telefono>
+            <materias>4</materias>
+        </alumno>
+        <alumno>
+            <noControl>99887766</noControl>
+            <nombre>José</nombre>
+            <apellidos>Ramírez Pérez</apellidos>
+            <direccion>Calle Estrella 303</direccion>
+            <semestre>7</semestre>
+            <correo>jose.ramirez@gmail.com</correo>
+            <telefono>555-5432</telefono>
+            <materias>6</materias>
+        </alumno>
+        <alumno>
+            <noControl>66778899</noControl>
+            <nombre>Elena</nombre>
+            <apellidos>Vargas López</apellidos>
+            <direccion>Plaza Luna 404</direccion>
+            <semestre>8</semestre>
+            <correo>elena.vargas@example.com</correo>
+            <telefono>555-6543</telefono>
+            <materias>5</materias>
+        </alumno>
+        <alumno>
+            <noControl>22334455</noControl>
+            <nombre>Fernando</nombre>
+            <apellidos>Castro García</apellidos>
+            <direccion>Avenida Estrella 505</direccion>
+            <semestre>9</semestre>
+            <correo>fernando.castro@gmail.com</correo>
+            <telefono>555-7654</telefono>
+            <materias>4</materias>
+        </alumno>
+        <alumno>
+            <noControl>33445566</noControl>
+            <nombre>Isabel</nombre>
+            <apellidos>Morales Díaz</apellidos>
+            <direccion>Calle Mayor 606</direccion>
+            <semestre>10</semestre>
+            <correo>isabel.morales@gmail.com</correo>
+            <telefono>555-8765</telefono>
+            <materias>3</materias>
+        </alumno>
+    </alumnos>
+    <materias>
+        <materia>
+            <clave>MAT101</clave>
+            <nombre>Matemáticas</nombre>
+            <creditos>4</creditos>
+            <carrera>Ingeniería</carrera>
+            <horario>Lunes 8:00-10:00</horario>
+        </materia>
+        <materia>
+            <clave>FIS102</clave>
+            <nombre>Física</nombre>
+            <creditos>3</creditos>
+            <carrera>Ingeniería</carrera>
+            <horario>Martes 10:00-12:00</horario>
+        </materia>
+        <materia>
+            <clave>QUI103</clave>
+            <nombre>Química</nombre>
+            <creditos>4</creditos>
+            <carrera>Ingeniería</carrera>
+            <horario>Miércoles 8:00-10:00</horario>
+        </materia>
+        <materia>
+            <clave>HIS104</clave>
+            <nombre>Historia</nombre>
+            <creditos>2</creditos>
+            <carrera>Humanidades</carrera>
+            <horario>Jueves 10:00-12:00</horario>
+        </materia>
+        <materia>
+            <clave>LIT105</clave>
+            <nombre>Literatura</nombre>
+            <creditos>3</creditos>
+            <carrera>Humanidades</carrera>
+            <horario>Viernes 8:00-10:00</horario>
+        </materia>
+        <materia>
+            <clave>INF106</clave>
+            <nombre>Informática</nombre>
+            <creditos>4</creditos>
+            <carrera>Ingeniería</carrera>
+            <horario>Lunes 10:00-12:00</horario>
+        </materia>
+        <materia>
+            <clave>BIO107</clave>
+            <nombre>Biología</nombre>
+            <creditos>3</creditos>
+            <carrera>Ciencias</carrera>
+            <horario>Martes 8:00-10:00</horario>
+        </materia>
+        <materia>
+            <clave>FIL108</clave>
+            <nombre>Filosofía</nombre>
+            <creditos>2</creditos>
+            <carrera>Humanidades</carrera>
+            <horario>Miércoles 10:00-12:00</horario>
+        </materia>
+        <materia>
+            <clave>ART109</clave>
+            <nombre>Arte</nombre>
+            <creditos>3</creditos>
+            <carrera>Humanidades</carrera>
+            <horario>Jueves 8:00-10:00</horario>
+        </materia>
+        <materia>
+            <clave>DEP110</clave>
+            <nombre>Deportes</nombre>
+            <creditos>2</creditos>
+            <carrera>Educación Física</carrera>
+            <horario>Viernes 10:00-12:00</horario>
+        </materia>
+    </materias>
+</escuela>
